@@ -53,7 +53,6 @@
             // Extract difficulty badge
             const difficultyElement = document.querySelector('[class*="difficulty"]') ||
                 document.querySelector('[class*="Difficulty"]');
-            
             const difficulty = difficultyElement ? difficultyElement.innerText.trim() : "Unknown";
 
             // Extract the user's LeetCode Username
